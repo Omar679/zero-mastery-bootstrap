@@ -10,14 +10,27 @@ body, html{
 }
 h1 {
     font-size: 3rem;
-    color: black;
+    color: #801515;
+}
+hr {
+    border-width: 3px;
+    border-color: #801515;
+    max-width: 65px;
 }
 .btn {
     font-weight: 700;
     border-radius: 300px;
     text-transform: uppercase;
 }
-
+.btn-primary{
+    background-color: #801515;
+    border-color: #801515;
+}
+.btn-primary:hover{
+    background-color: #FFAAAA;
+    border-color: #FFAAAA;
+    border-width: 4px;
+}
 .btn-xl{
     padding: 1rem 2rem;
 }
