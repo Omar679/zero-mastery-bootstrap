@@ -14,8 +14,12 @@ h1 {
 }
 hr {
     border-width: 3px;
-    border-color: #801515;
+    border-color: #f7eeee;
     max-width: 65px;
+    align-items: center;
+}
+.buffer{
+    height: 10rem;
 }
 .btn {
     font-weight: 700;
