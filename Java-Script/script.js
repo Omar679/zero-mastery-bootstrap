@@ -1,25 +1,18 @@
-function check_driver_age() {
+array = ["Banana", "Apples", "Oranges", "Blueberries"];
 
-    x = prompt("What is your age?");
+array.shift();
+console.log(array);
 
-    if (Number(x) < 18) {
-        alert("Sorry, you are too yound to drive this car. Powering off");
-    } else if (Number(x) > 18) {
-        alert("Powering On. Enjoy the ride!");
-    } else if (Number(x) === 18) {
-        alert("Congratulations on your first year of driving. Enjoy the ride!");
-    }
-}
-function check_driver_age_2(x){
-    
-    if (Number(x) < 18) {
-        console.log("Sorry, you are too yound to drive this car. Powering off");
-    } else if (Number(x) > 18) {
-        console.log("Powering On. Enjoy the ride!");
-    } else if (Number(x) === 18) {
-        console.log("Congratulations on your first year of driving. Enjoy the ride!");
-    }
-}
+array.sort ();
+console.log(array);
 
-check_driver_age()
-check_driver_age_2(4)
+array.push("Kiwi");
+console.log(array);
+
+delete array[1];
+console.log(array);
+
+console.log (array.reverse());
+
+array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+console.log(array2[1][1])
